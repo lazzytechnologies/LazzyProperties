@@ -17,7 +17,10 @@
 
 
  
-
+<div class="form-group">
+    <label for="email">Email *</label>
+    <input type="text" required class="form-control" name="email" placeholder="Email@sample.com">
+</div>
 <div class="form-group">
     <label for="Lastname">Last Name *</label>
     <input type="text" required class="form-control" name="lname" placeholder="Last Name">
@@ -26,10 +29,7 @@
     <label for="Firstname">First Name *</label>
     <input type="text" required class="form-control" name="fname" placeholder="First Name">
 </div>
-<div class="form-group">
-    <label for="email">Email *</label>
-    <input type="text" required class="form-control" name="email" placeholder="Email@sample.com">
-</div>
+
 
 <div class="form-group">
     <label for="password">Password *</label>
