@@ -36,6 +36,9 @@
         case 'propertyadvertise':
              include "includes/propertyadvertise.php"; 
             break;
+        case 'postproperty':
+             include "includes/post-property.php"; 
+            break;    
         default:
             include "includes/homepage-search.php";
              include "includes/homepage-property.php"; 

@@ -13,40 +13,38 @@
                         <div class="col-md-12 col-xs-12 register-blocks">
                             <h2>New account : </h2> 
                            
-                            <script type="text/javascript">
-                                $(document).ready(function(){
-                                    $("#usertype").change(function(){
-                                        var typevalue=$("#usertype").val();                                       
-                                        switch (typevalue) 
-                                        {   
-                                            case 'disabled':
-                                                $("#show").load("ajaxfiles/register-disabled.html");
-                                                break;
-                                            case 'agent':
-                                               $("#show").load("ajaxfiles/register-agent.html");
-                                                break;
-                                            case 'landlord':
-                                               $("#show").load("ajaxfiles/register-landlord.html");
-                                                break;
-                                            case 'buyer':
-                                               $("#show").load("ajaxfiles/register-buyer.html");
-                                                break;
-                                            default:
-                                               
-                                                 break;
-                                        } 
-                                    });
-                                });
-                            </script>
+                           <div class="form-group">
 
-                             <div class="form-group">
-                                <select id="usertype" class="form-control">
-                                    <option class="form-control" selected disabled value="disabled">Select Account Type</option>
-                                    <option class="form-control" value="agent">Agent</option>
-                                    <option class="form-control" value="landlord">Landlord</option>
-                                    <option class="form-control"  value="buyer">Buyer</option>
-                                </select>
-                            </div>
+
+ 
+
+<div class="form-group">
+    <label for="Lastname">Last Name *</label>
+    <input type="text" required class="form-control" name="lname" placeholder="Last Name">
+</div>
+<div class="form-group">
+    <label for="Firstname">First Name *</label>
+    <input type="text" required class="form-control" name="fname" placeholder="First Name">
+</div>
+<div class="form-group">
+    <label for="email">Email *</label>
+    <input type="text" required class="form-control" name="email" placeholder="Email@sample.com">
+</div>
+
+<div class="form-group">
+    <label for="password">Password *</label>
+    <input type="password" required class="form-control" name="password" placeholder="******">
+</div>
+
+</div>
+
+
+
+
+
+<div class="text-center">
+    <button type="submit" class="btn btn-default">Register</button>
+</div>
 
                             <form id="show" action="" method="post">                               
                                 <div class="form-group">
