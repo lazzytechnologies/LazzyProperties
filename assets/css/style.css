@@ -787,7 +787,7 @@ position: fixed;
 .nav-button.login{
     background-color: #33aabb;
     margin-right: 5px;
-    margin-top: 2px;
+    margin-top: -5px;
 }
 .nav-button.reg {
     background-color: #333;
@@ -2276,7 +2276,7 @@ single property page
     margin: 4px;
 }
 .register-area{
-    padding: 40px;
+    padding: 20px 10px 10px 10px;
 }
 
 /*=====================================

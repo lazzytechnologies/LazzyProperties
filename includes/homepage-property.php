@@ -21,7 +21,10 @@
                                     <div class="dot-hr"></div>
                                     <span class="pull-left"><b>Area :</b> 120m </span>
                                     <span class="proerty-price pull-right">$ 300,000</span>
+                                    
                                 </div>
+
+
                             </div>
                         </div>
 
