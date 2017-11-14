@@ -36,15 +36,16 @@
     <input type="password" required class="form-control" name="password" placeholder="******">
 </div>
 
-</div>
-
-
-
-
 
 <div class="text-center">
     <button type="submit" class="btn btn-default">Register</button>
 </div>
+</div>
+
+
+
+
+
 
                             <form id="show" action="" method="post">                               
                                 <div class="form-group">
