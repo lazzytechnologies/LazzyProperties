@@ -101,10 +101,19 @@
 </div>
 
 <div class="form-group">
+<<<<<<< HEAD
     <label for="Lastname">Title</label>
     <input type="text" required class="form-control" name="post_title" placeholder="Title">
+=======
+    <label for="Lastname">Upload Property Image</label>
+    <input id="input-b3" name="input-b3[]" type="file" class="file" multiple 
+    data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 </div>
+
 <div class="form-group">
+<<<<<<< HEAD
     <label for="Firstname">Price</label>
     <input type="number" required class="form-control" name="post_price" placeholder="&#8369 Price">
 </div>
@@ -119,8 +128,21 @@
                                         
                                     </select>
                                
+=======
+    <label for="Lastname">Title</label>
+    <input type="text" required class="form-control" name="lname" placeholder="Title">
 </div>
 <div class="form-group">
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="fname" placeholder="Price">
+</div>
+<div class="form-group">
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" id="comment"></textarea>
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+</div>
+<div class="form-group">
+<<<<<<< HEAD
     <label for="Firstname">Description</label>
    <textarea class="form-control" rows="5" name="post_description" id="comment"></textarea>
 </div>
@@ -135,6 +157,28 @@
 	<input type="hidden" id="route" name="post_route" ></input>
 	<input type="hidden" id="street_number" ></input>
 	
+=======
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" name="fname" placeholder="First Name">
+</div>
+
+
+
+</div>
+
+
+<div class="form-group">
+    <label for="Firstname">Type</label>
+     <select id="lunchBegins" class="selectpicker" title="Select Type">
+
+                                        <option>For Sale</option>
+                                        <option>Rent</option>
+                                        <option>New</option>
+                                        <option>Commercial or Land</option>
+                                        
+                                    </select>
+                               
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 </div>
 
 
@@ -169,9 +213,53 @@
     <input type="text" required class="form-control" name="post_land" placeholder="Land Size">
 </div>
 
+<<<<<<< HEAD
 <div class="form-group">
     <label for="Firstname">Floor Size</label>
     <input type="number" required class="form-control" name="post_floor" placeholder="Floor Size">
+=======
+
+
+<div class="form-group">
+    <label for="Firstname">Features</label>
+   <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Beds</label>
+            <input class="form-control" type="number" placeholder="Quantity of Beds" />
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Baths</label>
+            <input class="form-control" type="number" placeholder="Quantity of Baths"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Garage</label>
+            <input class="form-control" type="number" placeholder="Quantity of Garage"/>
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <label>Living Room</label>
+            <input class="form-control" type="number" placeholder="Quantity of Living Room"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Balcony</label>
+            <input class="form-control" type="number" placeholder="Quantity of Balcony"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Guest Room</label>
+            <input class="form-control" type="number" placeholder="Quantity of Guest Room"/>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="Lastname">Size</label>
+    <input type="text" required class="form-control" name="lname" placeholder="Land Size">
+    <input type="text" required class="form-control" name="lname" placeholder="Floor Size">
+</div>
+
+<div class="text-center">
+    <button type="submit" class="btn btn-default">Post Now!</button>
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 </div>
 
 <div class="text-center">

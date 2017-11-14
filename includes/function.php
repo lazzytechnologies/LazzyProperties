@@ -5,6 +5,7 @@
 function reg_user()
 {
 	
+<<<<<<< HEAD
 	$dsn = getenv('MYSQL_DSN');
 $user = getenv('MYSQL_USER');
 $pass = getenv('MYSQL_PASSWORD');
@@ -18,6 +19,20 @@ $pass = getenv('MYSQL_PASSWORD');
 catch(PDOException $ex){
     echo 'Connection failed: ' . $ex->getmessage();
 }
+=======
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	try{
+    $dbh = new pdo( "mysql:host=localhost;dbname=lazzypropertiesdb",
+                    $username,
+                    $password);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	}
+	catch(PDOException $ex){
+		echo 'Connection failed: ' . $ex->getmessage();
+	}
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 	
 	if (isset($_POST['reg_submit'])) 
 			{				
@@ -60,12 +75,77 @@ catch(PDOException $ex){
 					echo "Error: " . $e->getMessage();
 					}
 				}
+<<<<<<< HEAD
+=======
+				
+				
+
+
+				/**$firstname=mysqli_real_escape_string($connection,$firstname);
+				$lastname=mysqli_real_escape_string($connection,$lastname);
+				$username=mysqli_real_escape_string($connection,$username);
+				$password=mysqli_real_escape_string($connection,$password);
+				$email=mysqli_real_escape_string($connection,$email);
+				$role=mysqli_real_escape_string($connection,$role);
+				$gender=mysqli_real_escape_string($connection,$gender);
+	
+				$insert_user_query="INSERT INTO user (u_username, u_password, u_email, u_type) 
+										VALUES(
+										    '$username',
+										    '$password',
+										    '$email',
+										    '$role'
+										  )";
+				if(mysqli_query($connection,$insert_user_query))
+				{
+					
+					$id=mysqli_insert_id($connection);				
+					$insert_userdetails_query="INSERT INTO user_details (u_id, u_lname, u_fname, u_gender) 
+											VALUES(
+											    '$id',
+											    '$lastname',
+											    '$firstname',
+											    '$gender'
+											  )";
+					$insert_userdetails_result=mysqli_query($connection,$insert_userdetails_query);
+					if(!$insert_userdetails_result)
+					{
+						 die("no result".mysqli_error($connection));
+					}
+					else
+					{
+						$_SESSION['u_id']=$id;
+						$_SESSION['u_username']=$username;
+						$_SESSION['u_role']=$role;
+						if($role=="employer")
+						{
+							echo"<script>
+									alert('Registration Complete!');
+									location.href = 'index.php';
+							</script>";
+						}
+						else
+						{
+							echo"<script>
+									alert('Registration Complete!');
+									location.href = 'index-candidate.php?source=submitprofile';
+							</script>";
+						}
+							session_start();
+					}
+				}
+				else
+				{
+					die("no result".mysqli_error($connection));
+				}**/
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 			}
 
 
 }
 
 function login(){
+<<<<<<< HEAD
 	$dsn = getenv('MYSQL_DSN');
 $user = getenv('MYSQL_USER');
 $pass = getenv('MYSQL_PASSWORD');
@@ -80,6 +160,21 @@ $pass = getenv('MYSQL_PASSWORD');
 catch(PDOException $ex){
     echo 'Connection failed: ' . $ex->getmessage();
 }
+=======
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	
+	try{
+    $dbh = new pdo( "mysql:host=localhost;dbname=lazzypropertiesdb",
+                    $username,
+                    $password);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	}
+	catch(PDOException $ex){
+		echo 'Connection failed: ' . $ex->getmessage();
+	}
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 	
 	//global $dbh
 	if (isset($_POST['login_submit'])) 
@@ -93,6 +188,10 @@ catch(PDOException $ex){
 			$password=$_POST['login_password'];
 			$stmt->execute();
 			$count = (int)$stmt->rowCount();
+<<<<<<< HEAD
+=======
+			echo $count;
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 			if($count == 1 ){
 				echo "Log In Successful!";
 				$result = $stmt->fetch(PDO::FETCH_OBJ);
@@ -122,6 +221,7 @@ catch(PDOException $ex){
 
 function post_property(){
 	
+<<<<<<< HEAD
 	$dsn = getenv('MYSQL_DSN');
 $user = getenv('MYSQL_USER');
 $pass = getenv('MYSQL_PASSWORD');
@@ -138,12 +238,29 @@ catch(PDOException $ex){
 }
 	
 	if (isset($_POST['post_submit'])) 
+=======
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	try{
+    $dbh = new pdo( "mysql:host=localhost;dbname=lazzypropertiesdb",
+                    $username,
+                    $password);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	}
+	catch(PDOException $ex){
+		echo 'Connection failed: ' . $ex->getmessage();
+	}
+	
+	if (isset($_POST['reg_submit'])) 
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 	{				
 		try{
 			//Insert User Details
 			$stmt = $dbh->prepare("INSERT INTO Property (Title, Type, Price, Description, User_ID) 
 									VALUES (:title, :type, :price, :description, :user_id)");
 			$stmt->bindParam(':title', $title);
+<<<<<<< HEAD
 			$stmt->bindParam(':type', $type);
 			$stmt->bindParam(':price', $price);
 			$stmt->bindParam(':description', $description);
@@ -153,12 +270,22 @@ catch(PDOException $ex){
 			$price = $_POST['post_price'];
 			$description = $_POST['post_description'];
 			$user_id = $_SESSION['ID'];
+=======
+			$stmt->bindParam(':type', $firstname);
+			$stmt->bindParam(':lastname', $lastname);
+			$stmt->bindParam(':password', $password);
+			$email=$_POST['reg_email'];
+			$lastname=$_POST['reg_lname'];
+			$firstname=$_POST['reg_fname'];
+			$password=$_POST['reg_password'];
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 			$stmt->execute();
 			//Check last ID
 			$stmt = $dbh->prepare("SELECT LAST_INSERT_ID() FROM Property");
 			$stmt->execute();
 			$result = $stmt->fetchColumn();
 			//Insert Contact Details
+<<<<<<< HEAD
 			$stmt = $dbh->prepare("INSERT INTO Property_Location (Property_ID, Country, Zip, State, City, StreetAddress) 
 									VALUES (:property_id, :country, :zip, :state, :city, :streetaddress)");
 			$stmt->bindParam(':property_id', $result);
@@ -194,6 +321,16 @@ catch(PDOException $ex){
 			$floor = $_POST['post_floor'];
 			$stmt->execute();
 			echo "Property Posted!";
+=======
+			$stmt = $dbh->prepare("INSERT INTO User_Contact (User_ID, Mobile, Email) 
+									VALUES (:user_id, :mobile, :email)");
+			$stmt->bindParam(':user_id', $result);
+			$stmt->bindParam(':mobile', $mobile);
+			$stmt->bindParam(':email', $email);
+			$mobile=$_POST['reg_mobile'];
+			$stmt->execute();
+			echo "Register Successful!";
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 			//echo "<script> location.href = 'index.php' </script>";
 			//echo "Error Code: " . $stmt->errorCode();
 		}
