@@ -2,8 +2,12 @@
 session_start();?>
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
+<<<<<<< HEAD
 <?php include "includes/connection.php" ?>
 <?php include "includes/function.php" ?>
+=======
+<?php include "includes/connect.php" ?>
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 
 <?php 
     

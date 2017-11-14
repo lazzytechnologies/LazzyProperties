@@ -15,11 +15,19 @@
                            
                            <div class="form-group">
 
+<<<<<<< HEAD
 <form id="show" action="" method="post"> 
 <?php echo reg_user();?> 
 <div class="form-group">
     <label for="email">Email *</label>
     <input type="text" required class="form-control" name="reg_email" placeholder="Email@sample.com">
+=======
+
+ 
+<div class="form-group">
+    <label for="email">Email *</label>
+    <input type="text" required class="form-control" name="email" placeholder="Email@sample.com">
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 </div>
 <div class="form-group">
     <label for="Lastname">Last Name *</label>
@@ -29,25 +37,38 @@
     <label for="Firstname">First Name *</label>
     <input type="text" required class="form-control" name="reg_fname" placeholder="First Name">
 </div>
+<<<<<<< HEAD
 <div class="form-group">
     <label for="Mobile">Mobile Number *</label>
     <input type="text" required class="form-control" name="reg_mobile" placeholder="Mobile Number">
 </div>
+=======
+
+
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 <div class="form-group">
     <label for="password">Password *</label>
     <input type="password" required class="form-control" name="reg_password" placeholder="******">
 </div>
 
+
+<div class="text-center">
+    <button type="submit" class="btn btn-default">Register</button>
+</div>
 </div>
 
 
 
 
+<<<<<<< HEAD
 <div class="text-center">
 	<input name="_wp_http_referer" type="hidden" value="/register">
     <button name="reg_submit" type="submit" class="btn btn-default">Register</button>
 </div>
 </form>
+=======
+
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 
                                                           
                                 <div class="form-group">
