@@ -7,10 +7,9 @@ session_start();?>
 <?php include "includes/function.php" ?>
 =======
 <<<<<<< HEAD
-<?php include "includes/connection.php" ?>
+
 <?php include "includes/function.php" ?>
 =======
-<?php include "includes/connect.php" ?>
 >>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 >>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 
