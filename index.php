@@ -1,5 +1,9 @@
+<?php ob_start();
+session_start();?>
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
+<?php include "includes/connection.php" ?>
+<?php include "includes/function.php" ?>
 
 <?php 
     

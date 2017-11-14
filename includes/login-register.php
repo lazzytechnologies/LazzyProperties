@@ -15,45 +15,48 @@
                            
                            <div class="form-group">
 
-
- 
-
+<form id="show" action="" method="post"> 
+<?php echo reg_user();?> 
+<div class="form-group">
+    <label for="email">Email *</label>
+    <input type="text" required class="form-control" name="reg_email" placeholder="Email@sample.com">
+</div>
 <div class="form-group">
     <label for="Lastname">Last Name *</label>
-    <input type="text" required class="form-control" name="lname" placeholder="Last Name">
+    <input type="text" required class="form-control" name="reg_lname" placeholder="Last Name">
 </div>
 <div class="form-group">
     <label for="Firstname">First Name *</label>
-    <input type="text" required class="form-control" name="fname" placeholder="First Name">
+    <input type="text" required class="form-control" name="reg_fname" placeholder="First Name">
 </div>
 <div class="form-group">
-    <label for="email">Email *</label>
-    <input type="text" required class="form-control" name="email" placeholder="Email@sample.com">
+    <label for="Mobile">Mobile Number *</label>
+    <input type="text" required class="form-control" name="reg_mobile" placeholder="Mobile Number">
 </div>
-
 <div class="form-group">
     <label for="password">Password *</label>
-    <input type="password" required class="form-control" name="password" placeholder="******">
+    <input type="password" required class="form-control" name="reg_password" placeholder="******">
 </div>
 
 </div>
-
 
 
 
 
 <div class="text-center">
-    <button type="submit" class="btn btn-default">Register</button>
+	<input name="_wp_http_referer" type="hidden" value="/register">
+    <button name="reg_submit" type="submit" class="btn btn-default">Register</button>
 </div>
+</form>
 
-                            <form id="show" action="" method="post">                               
+                                                          
                                 <div class="form-group">
                                      
                                     <br>
                                     
                                 </div>
                                
-                            </form>
+                            
 
 
 
@@ -66,17 +69,20 @@
                     <div class="box-for overflow">                         
                         <div class="col-md-12 col-xs-12 login-blocks">
                             <h2>Login : </h2> 
-                            <form action="" method="post">
+							
+                            <form id="show" action="" method="post">
+							<?php echo login() ?>
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input type="text" class="form-control" id="email">
+                                    <input type="text" class="form-control" name="login_email" id="email">
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
-                                    <input type="password" class="form-control" id="password">
+                                    <input type="password" class="form-control" name="login_password" id="password">
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-default"> Log in</button>
+								<input name="_wp_http_referer" type="hidden" value="/login">
+                                    <button name="login_submit" type="submit" class="btn btn-default"> Log in</button>
                                 </div>
                             </form>
                             <br>
