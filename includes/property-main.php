@@ -210,7 +210,9 @@
 
                     <div class="col-md-12 clear"> 
                         <div id="list-type" class="proerty-th">
-                            <div class="col-sm-6 col-md-4 p0">
+						
+								<?php echo property_list();?>
+								<!--<div class="col-sm-6 col-md-4 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
                                             <a href="property-1.html" ><img src="assets/img/demo/property-3.jpg"></a>
@@ -219,7 +221,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -242,7 +246,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -257,19 +263,23 @@
                                 <div class="col-sm-6 col-md-4 p0">
                                     <div class="box-two proerty-item">
                                         <div class="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-1.jpg"></a>
+                                            <a onclick="location.href='  index.php?source=property-page'" ><img src="assets/img/demo/property-1.jpg"></a>
                                         </div>
 
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
+											<span class="pull-left"><b> Bagong Calzada Tuktukan, Taguig City</b> </span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
                                                 <img src="assets/img/icon/bed.png">(5)|
                                                 <img src="assets/img/icon/shawer.png">(2)|
-                                                <img src="assets/img/icon/cars.png">(1)  
+                                                <img src="assets/img/icon/cars.png">(1)
+												
                                             </div>
                                         </div> 
                                     </div>
@@ -284,9 +294,11 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
-                                            <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
+                                            <p style="display: none;">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy...</p>
                                             <div class="property-icon">
                                                 <img src="assets/img/icon/bed.png">(5)|
                                                 <img src="assets/img/icon/shawer.png">(2)|
@@ -305,7 +317,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -327,7 +341,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -348,7 +364,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -369,7 +387,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -390,7 +410,9 @@
                                         <div class="item-entry overflow">
                                             <h5><a href="property-1.html"> Super nice villa </a></h5>
                                             <div class="dot-hr"></div>
-                                            <span class="pull-left"><b> Area :</b> 120m </span>
+                                            <span class="pull-left"><b> Land :</b> 120sqm </span>
+											<br/>
+											<span class="pull-left"><b> Floor :</b> 120sqm </span>
                                             <span class="proerty-price pull-right"> $ 300,000</span>
                                             <p style="display: none;">Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div class="property-icon">
@@ -400,7 +422,7 @@
                                             </div>
                                         </div> 
                                     </div>
-                                </div> 
+                                </div> -->
                         </div>
                     </div>
                     
