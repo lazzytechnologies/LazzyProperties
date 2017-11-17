@@ -3,10 +3,13 @@ session_start();?>
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include "includes/connection.php" ?>
 <?php include "includes/function.php" ?>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 <?php include "includes/connect.php" ?>
 <?php include "includes/function.php" ?>
 =======
@@ -16,6 +19,9 @@ session_start();?>
 =======
 >>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 >>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 
 <?php 

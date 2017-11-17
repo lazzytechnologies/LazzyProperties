@@ -47,14 +47,19 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
 >>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 <form id="show" action="" method="post"> 
 <?php echo reg_user();?> 
 <div class="form-group">
     <label for="email">Email *</label>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <input type="text" id="reg-email" required class="form-control" name="reg_email" placeholder="Email@sample.com">
 </div>
@@ -66,6 +71,8 @@
     <label for="Firstname">First Name *</label>
     <input type="text" id="reg-first" required class="form-control" name="reg_fname" placeholder="First Name">
 =======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
     <input type="text" required class="form-control" name="reg_email" placeholder="Email@sample.com">
 <<<<<<< HEAD
 =======
@@ -85,17 +92,23 @@
 <div class="form-group">
     <label for="Firstname">First Name *</label>
     <input type="text" required class="form-control" name="reg_fname" placeholder="First Name">
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 </div>
 <<<<<<< HEAD
 <div class="form-group">
     <label for="Mobile">Mobile Number *</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input type="text" id="reg-mobile" required class="form-control" name="reg_mobile" placeholder="Mobile Number">
 </div>
 <div class="form-group">
     <label for="password">Password *</label>
     <input type="password" id="reg-pass" required class="form-control" name="reg_password" placeholder="******">
+=======
+    <input type="text" required class="form-control" name="reg_mobile" placeholder="Mobile Number">
 =======
     <input type="text" required class="form-control" name="reg_mobile" placeholder="Mobile Number">
 </div>
@@ -111,7 +124,26 @@
     <input type="password" required class="form-control" name="reg_password" placeholder="******">
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 </div>
+<<<<<<< HEAD
+=======
+=======
 
+
+<<<<<<< HEAD
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<div class="form-group">
+    <label for="password">Password *</label>
+    <input type="password" required class="form-control" name="reg_password" placeholder="******">
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+</div>
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+
+<div class="text-center">
+    <button type="submit" class="btn btn-default">Register</button>
+</div>
+</div>
 
 <div class="text-center">
     <button type="submit" class="btn btn-default">Register</button>
@@ -119,7 +151,10 @@
 </div>
 
 
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <div class="text-center">
 	<input name="_wp_http_referer" type="hidden" value="/register">
@@ -137,6 +172,13 @@
 	<input name="_wp_http_referer" type="hidden" value="/register">
     <button name="reg_submit" type="submit" class="btn btn-default">Register</button>
 </div>
+=======
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<div class="text-center">
+	<input name="_wp_http_referer" type="hidden" value="/register">
+    <button name="reg_submit" type="submit" class="btn btn-default">Register</button>
+</div>
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 </form>
 <<<<<<< HEAD
 =======
@@ -144,6 +186,9 @@
 
 >>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
 >>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 
                                                           
@@ -179,18 +224,24 @@
                                     <input type="password" required class="form-control" name="login_password" id="password">
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <input type="text" required class="form-control" name="login_email" id="email">
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
                                     <input type="password" required class="form-control" name="login_password" id="password">
 =======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
                                     <input type="text" class="form-control" name="login_email" id="email">
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
                                     <input type="password" class="form-control" name="login_password" id="password">
 >>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
 >>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
                                 </div>
                                 <div class="text-center">
