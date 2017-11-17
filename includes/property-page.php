@@ -66,6 +66,11 @@
                                 </div>
 
                                 <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                     <span class="property-info-icon icon-bath">
                                         <img src="assets/img/icon/os-orange.png">
                                     </span>
@@ -75,16 +80,43 @@
                                     </span>
                                 </div>
 								<div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                     <span class="property-info icon-area">
                                         <img src="assets/img/icon/room-orange.png">
                                     </span>
                                     <span class="property-info-entry">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                         <span class="property-info-label">Floor</span>
                                         <span class="property-info-value">30<b class="property-info-unit">Sqm</b></span>
                                     </span>
                                 </div>
 
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+                                        <span class="property-info-label">Area</span>
+                                        <span class="property-info-value">3500<b class="property-info-unit">Sq Ft</b></span>
+                                    </span>
+                                </div>
+
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                 <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                                     <span class="property-info-icon icon-bed">
                                         <img src="assets/img/icon/bed-orange.png">
@@ -94,6 +126,11 @@
                                         <span class="property-info-value">3</span>
                                     </span>
                                 </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                 
                                 <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                                     <span class="property-info-icon icon-garage">
@@ -112,6 +149,54 @@
                                     <span class="property-info-entry">
                                         <span class="property-info-label">Garages</span>
                                         <span class="property-info-value">1</span>
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+
+                                <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                                    <span class="property-info-icon icon-bed">
+                                        <img src="assets/img/icon/cars-orange.png">
+                                    </span>
+                                    <span class="property-info-entry">
+                                        <span class="property-info-label">Car garages</span>
+                                        <span class="property-info-value">1</span>
+                                    </span>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                                    <span class="property-info-icon icon-bath">
+                                        <img src="assets/img/icon/os-orange.png">
+                                    </span>
+                                    <span class="property-info-entry">
+                                        <span class="property-info-label">Bathrooms</span>
+                                        <span class="property-info-value">3.5</span>
+                                    </span>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                                    <span class="property-info-icon icon-garage">
+                                        <img src="assets/img/icon/room-orange.png">
+                                    </span>
+                                    <span class="property-info-entry">
+                                        <span class="property-info-label">Garages</span>
+                                        <span class="property-info-value">2</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                                    <span class="property-info-icon icon-garage">
+                                        <img src="assets/img/icon/shawer-orange.png">
+                                    </span>
+                                    <span class="property-info-entry">
+                                        <span class="property-info-label">Garages</span>
+                                        <span class="property-info-value">2</span>
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                     </span>
                                 </div>
 
@@ -256,7 +341,19 @@
                                                 <li><i class="pe-7s-mail strong"> </i> email@yourcompany.com</li>
                                                 <li><i class="pe-7s-call strong"> </i> +1 908 967 5906</li>
                                             </ul>
+<<<<<<< HEAD
                                             <!--<p>Duis mollis  blandit tempus porttitor curabiturDuis mollis  blandit tempus porttitor curabitur , est non…</p>-->
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                                            <!--<p>Duis mollis  blandit tempus porttitor curabiturDuis mollis  blandit tempus porttitor curabitur , est non…</p>-->
+=======
+                                            <p>Duis mollis  blandit tempus porttitor curabiturDuis mollis  blandit tempus porttitor curabitur , est non…</p>
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+                                            <p>Duis mollis  blandit tempus porttitor curabiturDuis mollis  blandit tempus porttitor curabitur , est non…</p>
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
                                         </div>
 
                                     </div>

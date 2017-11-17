@@ -99,12 +99,33 @@
     data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
 
 </div>
+<<<<<<< HEAD
 
 <div class="form-group">
     <label for="Lastname">Title</label>
     <input type="text" required class="form-control" name="post_title" placeholder="Title">
-</div>
+=======
+<<<<<<< HEAD
+
 <div class="form-group">
+<<<<<<< HEAD
+    <label for="Lastname">Title</label>
+    <input type="text" required class="form-control" name="post_title" placeholder="Title">
+=======
+<<<<<<< HEAD
+    <label for="Lastname">Title</label>
+    <input type="text" required class="form-control" name="post_title" placeholder="Title">
+=======
+    <label for="Lastname">Upload Property Image</label>
+    <input id="input-b3" name="input-b3[]" type="file" class="file" multiple 
+    data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+</div>
+
+<div class="form-group">
+<<<<<<< HEAD
     <label for="Firstname">Price</label>
     <input type="number" required class="form-control" name="post_price" placeholder="&#8369 Price">
 </div>
@@ -135,10 +156,277 @@
 	<input type="hidden" id="route" name="post_route" ></input>
 	<input type="hidden" id="street_number" ></input>
 	
+=======
+<<<<<<< HEAD
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="post_price" placeholder="&#8369 Price">
+=======
+
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Lastname">Title</label>
+    <input type="text" required class="form-control" name="post_title" placeholder="Title">
+=======
+    <label for="Lastname">Upload Property Image</label>
+    <input id="input-b3" name="input-b3[]" type="file" class="file" multiple 
+    data-show-upload="false" data-show-caption="true" data-msg-placeholder="Select {files} for upload...">
+
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+</div>
+
+<div class="form-group">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="post_price" placeholder="&#8369 Price">
+</div>
+<div class="form-group">
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+    <label for="Firstname">Type</label>
+     <select id="lunchBegins" class="selectpicker" name="post_type" title="Select Type">
+
+                                        <option value="a">For Sale</option>
+                                        <option value="b">For Rent</option>
+                                        <option value="c">New Home and Development</option>
+                                        <option value="d">Commercial and Land</option>
+                                        
+                                    </select>
+                               
+=======
+    <label for="Lastname">Title</label>
+    <input type="text" required class="form-control" name="lname" placeholder="Title">
+<<<<<<< HEAD
+</div>
+<div class="form-group">
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="fname" placeholder="Price">
+</div>
+<div class="form-group">
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" id="comment"></textarea>
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+</div>
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" name="post_description" id="comment"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" onFocus="geolocate()" id="autocomplete" name="post_location" placeholder="Address"></input>
+	<input type="hidden" id="country" name="post_country" ></input>
+	<input type="hidden" id="postal_code" name="post_zip" ></input>
+	<input type="hidden" id="administrative_area_level_1" name="post_state" ></input>
+	<input type="hidden" id="locality" name="post_city" ></input>
+	<input type="hidden" id="route" name="post_route" ></input>
+	<input type="hidden" id="street_number" ></input>
+	
+=======
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" name="fname" placeholder="First Name">
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 </div>
 
 
 
+</div>
+
+
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Type</label>
+     <select id="lunchBegins" class="selectpicker" title="Select Type">
+
+                                        <option>For Sale</option>
+                                        <option>Rent</option>
+                                        <option>New</option>
+                                        <option>Commercial or Land</option>
+                                        
+                                    </select>
+                               
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
+</div>
+
+
+
+=======
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="fname" placeholder="Price">
+</div>
+<div class="form-group">
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" id="comment"></textarea>
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+</div>
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" name="post_description" id="comment"></textarea>
+</div>
+
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Price</label>
+    <input type="number" required class="form-control" name="post_price" placeholder="&#8369 Price">
+=======
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" onFocus="geolocate()" id="autocomplete" name="post_location" placeholder="Address"></input>
+	<input type="hidden" id="country" name="post_country" ></input>
+	<input type="hidden" id="postal_code" name="post_zip" ></input>
+	<input type="hidden" id="administrative_area_level_1" name="post_state" ></input>
+	<input type="hidden" id="locality" name="post_city" ></input>
+	<input type="hidden" id="route" name="post_route" ></input>
+	<input type="hidden" id="street_number" ></input>
+	
+=======
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" name="fname" placeholder="First Name">
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
+</div>
+
+
+
+</div>
+
+
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Type</label>
+     <select id="lunchBegins" class="selectpicker" name="post_type" title="Select Type">
+
+                                        <option value="a">For Sale</option>
+                                        <option value="b">For Rent</option>
+                                        <option value="c">New Home and Development</option>
+                                        <option value="d">Commercial and Land</option>
+                                        
+                                    </select>
+                               
+</div>
+<div class="form-group">
+    <label for="Firstname">Description</label>
+   <textarea class="form-control" rows="5" name="post_description" id="comment"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="Firstname">Location</label>
+    <input type="text" required class="form-control" onFocus="geolocate()" id="autocomplete" name="post_location" placeholder="Address"></input>
+	<input type="hidden" id="country" name="post_country" ></input>
+	<input type="hidden" id="postal_code" name="post_zip" ></input>
+	<input type="hidden" id="administrative_area_level_1" name="post_state" ></input>
+	<input type="hidden" id="locality" name="post_city" ></input>
+	<input type="hidden" id="route" name="post_route" ></input>
+	<input type="hidden" id="street_number" ></input>
+	
+=======
+<<<<<<< HEAD
+    <label for="Firstname">Features</label>
+   <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Stories</label>
+            <input class="form-control" type="number" placeholder="No. of Stories" name="post_stories"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Bed</label>
+            <input class="form-control" type="number" placeholder="No. of Bedrooms" name="post_bed"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Baths</label>
+            <input class="form-control" type="number" placeholder="No. of Bathrooms" name="post_bath"/>
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <label>Garage</label>
+            <input class="form-control" type="number" placeholder="No. of Cars fit in Garage" name="post_garage"/>
+        </div>
+    </div>
+=======
+    <label for="Firstname">Type</label>
+     <select id="lunchBegins" class="selectpicker" title="Select Type">
+
+                                        <option>For Sale</option>
+                                        <option>Rent</option>
+                                        <option>New</option>
+                                        <option>Commercial or Land</option>
+                                        
+                                    </select>
+                               
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+</div>
+<label for="Lastname">Size</label>
+<div class="form-group">
+    <label for="Lastname">Land Size</label>
+    <input type="text" required class="form-control" name="post_land" placeholder="Land Size">
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+</div>
+
+<<<<<<< HEAD
+<div class="form-group">
+    <label for="Firstname">Floor Size</label>
+    <input type="number" required class="form-control" name="post_floor" placeholder="Floor Size">
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+</div>
+
+<div class="form-group">
+    <label for="Firstname">Features</label>
+   <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Stories</label>
+            <input class="form-control" type="number" placeholder="No. of Stories" name="post_stories"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Bed</label>
+            <input class="form-control" type="number" placeholder="No. of Bedrooms" name="post_bed"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Baths</label>
+            <input class="form-control" type="number" placeholder="No. of Bathrooms" name="post_bath"/>
+        </div>
+=======
+
+
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
+</div>
+
+<div class="form-group">
+    <label for="Firstname">Features</label>
+   <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Stories</label>
+            <input class="form-control" type="number" placeholder="No. of Stories" name="post_stories"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Bed</label>
+            <input class="form-control" type="number" placeholder="No. of Bedrooms" name="post_bed"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Baths</label>
+            <input class="form-control" type="number" placeholder="No. of Bathrooms" name="post_bath"/>
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <label>Garage</label>
+            <input class="form-control" type="number" placeholder="No. of Cars fit in Garage" name="post_garage"/>
+        </div>
+    </div>
+</div>
+<label for="Lastname">Size</label>
+<div class="form-group">
+    <label for="Lastname">Land Size</label>
+    <input type="text" required class="form-control" name="post_land" placeholder="Land Size">
+</div>
+
+<<<<<<< HEAD
 </div>
 
 <div class="form-group">
@@ -172,6 +460,78 @@
 <div class="form-group">
     <label for="Firstname">Floor Size</label>
     <input type="number" required class="form-control" name="post_floor" placeholder="Floor Size">
+=======
+<<<<<<< HEAD
+<div class="form-group">
+    <label for="Firstname">Floor Size</label>
+    <input type="number" required class="form-control" name="post_floor" placeholder="Floor Size">
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+
+        <div class="col-xs-6 form-group">
+            <label>Garage</label>
+            <input class="form-control" type="number" placeholder="No. of Cars fit in Garage" name="post_garage"/>
+        </div>
+    </div>
+</div>
+<label for="Lastname">Size</label>
+<div class="form-group">
+    <label for="Lastname">Land Size</label>
+    <input type="text" required class="form-control" name="post_land" placeholder="Land Size">
+</div>
+
+<div class="form-group">
+<<<<<<< HEAD
+    <label for="Firstname">Floor Size</label>
+    <input type="number" required class="form-control" name="post_floor" placeholder="Floor Size">
+=======
+<div class="form-group">
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+    <label for="Firstname">Features</label>
+   <div class="row">
+        <div class="col-xs-6 form-group">
+            <label>Beds</label>
+            <input class="form-control" type="number" placeholder="Quantity of Beds" />
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Baths</label>
+            <input class="form-control" type="number" placeholder="Quantity of Baths"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Garage</label>
+            <input class="form-control" type="number" placeholder="Quantity of Garage"/>
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <label>Living Room</label>
+            <input class="form-control" type="number" placeholder="Quantity of Living Room"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Balcony</label>
+            <input class="form-control" type="number" placeholder="Quantity of Balcony"/>
+        </div>
+        <div class="col-xs-6 form-group">
+            <label>Guest Room</label>
+            <input class="form-control" type="number" placeholder="Quantity of Guest Room"/>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="Lastname">Size</label>
+    <input type="text" required class="form-control" name="lname" placeholder="Land Size">
+    <input type="text" required class="form-control" name="lname" placeholder="Floor Size">
+</div>
+
+<div class="text-center">
+    <button type="submit" class="btn btn-default">Post Now!</button>
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 </div>
 
 <div class="text-center">

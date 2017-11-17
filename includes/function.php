@@ -5,6 +5,33 @@
 function reg_user()
 {
 	
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+	$dsn = getenv('MYSQL_DSN');
+$user = getenv('MYSQL_USER');
+$pass = getenv('MYSQL_PASSWORD');
+	try{
+    $dbh = new pdo( $dsn,
+                    $user,
+                    $pass);
+					$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+}
+catch(PDOException $ex){
+    echo 'Connection failed: ' . $ex->getmessage();
+}
+=======
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -17,6 +44,17 @@ function reg_user()
 	catch(PDOException $ex){
 		echo 'Connection failed: ' . $ex->getmessage();
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	
 	if (isset($_POST['reg_submit'])) 
 			{				
@@ -59,12 +97,116 @@ function reg_user()
 					echo "Error: " . $e->getMessage();
 					}
 				}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+				
+				
+
+
+				/**$firstname=mysqli_real_escape_string($connection,$firstname);
+				$lastname=mysqli_real_escape_string($connection,$lastname);
+				$username=mysqli_real_escape_string($connection,$username);
+				$password=mysqli_real_escape_string($connection,$password);
+				$email=mysqli_real_escape_string($connection,$email);
+				$role=mysqli_real_escape_string($connection,$role);
+				$gender=mysqli_real_escape_string($connection,$gender);
+	
+				$insert_user_query="INSERT INTO user (u_username, u_password, u_email, u_type) 
+										VALUES(
+										    '$username',
+										    '$password',
+										    '$email',
+										    '$role'
+										  )";
+				if(mysqli_query($connection,$insert_user_query))
+				{
+					
+					$id=mysqli_insert_id($connection);				
+					$insert_userdetails_query="INSERT INTO user_details (u_id, u_lname, u_fname, u_gender) 
+											VALUES(
+											    '$id',
+											    '$lastname',
+											    '$firstname',
+											    '$gender'
+											  )";
+					$insert_userdetails_result=mysqli_query($connection,$insert_userdetails_query);
+					if(!$insert_userdetails_result)
+					{
+						 die("no result".mysqli_error($connection));
+					}
+					else
+					{
+						$_SESSION['u_id']=$id;
+						$_SESSION['u_username']=$username;
+						$_SESSION['u_role']=$role;
+						if($role=="employer")
+						{
+							echo"<script>
+									alert('Registration Complete!');
+									location.href = 'index.php';
+							</script>";
+						}
+						else
+						{
+							echo"<script>
+									alert('Registration Complete!');
+									location.href = 'index-candidate.php?source=submitprofile';
+							</script>";
+						}
+							session_start();
+					}
+				}
+				else
+				{
+					die("no result".mysqli_error($connection));
+				}**/
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			}
 
 
 }
 
 function login(){
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+	$dsn = getenv('MYSQL_DSN');
+$user = getenv('MYSQL_USER');
+$pass = getenv('MYSQL_PASSWORD');
+	
+	try{
+    $dbh = new pdo( $dsn,
+                    $user,
+                    $pass);
+					$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+}
+catch(PDOException $ex){
+    echo 'Connection failed: ' . $ex->getmessage();
+}
+=======
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -78,6 +220,17 @@ function login(){
 	catch(PDOException $ex){
 		echo 'Connection failed: ' . $ex->getmessage();
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	
 	//global $dbh
 	if (isset($_POST['login_submit'])) 
@@ -91,6 +244,21 @@ function login(){
 			$password=$_POST['login_password'];
 			$stmt->execute();
 			$count = (int)$stmt->rowCount();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+			echo $count;
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+			echo $count;
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			if($count == 1 ){
 				echo "Log In Successful!";
 				$result = $stmt->fetch(PDO::FETCH_OBJ);
@@ -120,6 +288,36 @@ function login(){
 
 function post_property(){
 	
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+	$dsn = getenv('MYSQL_DSN');
+$user = getenv('MYSQL_USER');
+$pass = getenv('MYSQL_PASSWORD');
+
+try{
+    $dbh = new pdo( $dsn,
+                    $user,
+                    $pass);
+					$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+}
+catch(PDOException $ex){
+    echo 'Connection failed: ' . $ex->getmessage();
+}
+	
+	if (isset($_POST['post_submit'])) 
+=======
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -133,13 +331,37 @@ function post_property(){
 		echo 'Connection failed: ' . $ex->getmessage();
 	}
 	
+<<<<<<< HEAD
 	if (isset($_POST['post_submit'])) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	if (isset($_POST['post_submit'])) 
+=======
+	if (isset($_POST['reg_submit'])) 
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+	if (isset($_POST['reg_submit'])) 
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 	{				
 		try{
 			//Insert User Details
 			$stmt = $dbh->prepare("INSERT INTO Property (Title, Type, Price, Description, User_ID) 
 									VALUES (:title, :type, :price, :description, :user_id)");
 			$stmt->bindParam(':title', $title);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			$stmt->bindParam(':type', $type);
 			$stmt->bindParam(':price', $price);
 			$stmt->bindParam(':description', $description);
@@ -149,12 +371,43 @@ function post_property(){
 			$price = $_POST['post_price'];
 			$description = $_POST['post_description'];
 			$user_id = $_SESSION['ID'];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+			$stmt->bindParam(':type', $firstname);
+			$stmt->bindParam(':lastname', $lastname);
+			$stmt->bindParam(':password', $password);
+			$email=$_POST['reg_email'];
+			$lastname=$_POST['reg_lname'];
+			$firstname=$_POST['reg_fname'];
+			$password=$_POST['reg_password'];
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			$stmt->execute();
 			//Check last ID
 			$stmt = $dbh->prepare("SELECT LAST_INSERT_ID() FROM Property");
 			$stmt->execute();
 			$result = $stmt->fetchColumn();
 			//Insert Contact Details
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			$stmt = $dbh->prepare("INSERT INTO Property_Location (Property_ID, Country, Zip, State, City, StreetAddress) 
 									VALUES (:property_id, :country, :zip, :state, :city, :streetaddress)");
 			$stmt->bindParam(':property_id', $result);
@@ -190,6 +443,28 @@ function post_property(){
 			$floor = $_POST['post_floor'];
 			$stmt->execute();
 			echo "Property Posted!";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+			$stmt = $dbh->prepare("INSERT INTO User_Contact (User_ID, Mobile, Email) 
+									VALUES (:user_id, :mobile, :email)");
+			$stmt->bindParam(':user_id', $result);
+			$stmt->bindParam(':mobile', $mobile);
+			$stmt->bindParam(':email', $email);
+			$mobile=$_POST['reg_mobile'];
+			$stmt->execute();
+			echo "Register Successful!";
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+<<<<<<< HEAD
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 			//echo "<script> location.href = 'index.php' </script>";
 			//echo "Error Code: " . $stmt->errorCode();
 		}
@@ -206,6 +481,11 @@ function post_property(){
 	}
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 
 function property_list() {
 	$type="";
@@ -484,4 +764,11 @@ function property_list() {
 }
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+=======
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
+>>>>>>> 2be7510ded102541237b9ea0dc045b04361f0767
 ?>
