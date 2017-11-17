@@ -25,21 +25,21 @@
                       
 
                        <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                            <a href="index.php?source=property-forsale" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">FOR SALE</a>
+                            <a href="index.php?source=property-forsale&type=forsale" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">FOR SALE</a>
                       </li>
 
                       <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                             <a href="index.php?source=property-forrent" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="20 0">FOR RENT</a>
+                             <a href="index.php?source=property-forrent&type=forrent" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="20 0">FOR RENT</a>
                       </li>
                    
                     
                       <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                            <a href="index.php?source=property-newdevelopment" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">NEW DEVELOPMENT</a>
+                            <a href="index.php?source=property-newdevelopment&type=new" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">NEW DEVELOPMENT</a>
                            
                       </li>
 
                       <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                            <a href="index.php?source=property-newdevelopment" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">COMMERCIAL & LAND</a>
+                            <a href="index.php?source=property-newdevelopment&type=commercialland" class="dropdown-toggle" data-toggle="ddropdown" data-hover="dropdown" data-delay="200">COMMERCIAL & LAND</a>
                            
                       </li>
 

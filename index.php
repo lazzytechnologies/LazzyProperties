@@ -1,5 +1,22 @@
+<?php ob_start();
+session_start();?>
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
+<<<<<<< HEAD
+<?php include "includes/connection.php" ?>
+<?php include "includes/function.php" ?>
+=======
+<<<<<<< HEAD
+<?php include "includes/connect.php" ?>
+<?php include "includes/function.php" ?>
+=======
+<<<<<<< HEAD
+
+<?php include "includes/function.php" ?>
+=======
+>>>>>>> 0af9efb084afc4fbb89a13414bb47a599c5f880b
+>>>>>>> e546d66233d9b50b8a5c8bbfeb9c639fd4a561fc
+>>>>>>> 5c5879bd5f8a92a246db466aa84c4fe5d97f27e9
 
 <?php 
     
@@ -17,7 +34,7 @@
        
         case 'property-forsale':
              include "includes/property-main.php"; 
-            break;
+            break; 
         case 'property-forrent':
              include "includes/property-main.php"; 
             break;
@@ -35,6 +52,9 @@
             break;
         case 'propertyadvertise':
              include "includes/propertyadvertise.php"; 
+            break;
+		case 'property-page':
+             include "includes/property-page.php"; 
             break;
         case 'postproperty':
              include "includes/post-property.php"; 
